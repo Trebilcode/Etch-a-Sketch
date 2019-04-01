@@ -1,0 +1,1 @@
+As someone suggested it is necesary for me to update the code in order to simplify it by creating one only function that handles the creation of the visible grid and the new-user-prompted one.
