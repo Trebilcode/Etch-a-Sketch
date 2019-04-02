@@ -1,1 +1,3 @@
 As someone suggested it is necesary for me to update the code in order to simplify it by creating one only function that handles the creation of the visible grid and the new-user-prompted one.
+A optional TOP functionality is missing, which is making every pass of the cursor to draw a 10% of black in every cell.
+The RGB colored button should deactivate the colored trace when it is on and go back to the black one.
