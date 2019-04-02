@@ -23,7 +23,7 @@ function createNewGrid(){
             
             for (i = 0; i < 1; i++) {
                 let secondContainerDiv = document.createElement('div');
-                container.style.cssText = 'display: inline-grid; margin: 10% 35% 5%  ';
+                container.style.cssText = 'display: inline-grid; margin: 0% 35% 5%  ';
                 secondContainerDiv.style.cssText = `display: inline-grid; grid-template-columns: repeat(${getInputFromUser}, 1fr); grid-template-rows: repeat(${getInputFromUser}, 1fr); width: 30rem; height: 30rem`;
                 container.appendChild(secondContainerDiv);
                 
@@ -57,7 +57,7 @@ function createStandardGrid() {
     for (i = 0; i <1; i ++) {
 
         let secondContainerDiv = document.createElement('div');
-        container.style.cssText = 'display: inline-grid; margin: 10% 35% 5%;';
+        container.style.cssText = 'display: inline-grid; margin: 0% 35% 5%;';
         container.appendChild(secondContainerDiv);
         
         secondContainerDiv.style.cssText = 'display: inline-grid; grid-template-rows: repeat(16, 1fr); grid-template-columns: repeat(16, 1fr); grid-row-gap: 0; grid-column-gap: 0; height: 30rem; width: 30rem';

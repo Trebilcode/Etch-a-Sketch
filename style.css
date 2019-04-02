@@ -6,11 +6,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: rgb(59, 65, 124);
+}
+
+h1 {
+    text-align: center;
+    margin: 2%;
+    
+}
+
+.container {
+    background-color: gray;
+    border: 1rem solid red;
+    border-radius: 0.5rem;
+}
 
 .coloredSquares {
     background-color: var(--background);
 }
 
     
+.buttons {
+    
+    margin: 0 43%;
+    padding: 0 auto;
+    display: inline;
+}
 
+button {
+    height: 2rem;
+}
 
